@@ -17,9 +17,15 @@ Doing this for 100000 documents a day leads to manual efforts and the rate of er
 Solution:-
 
 The document can be scanned or a normal pdf(please check repository pdf to text)
+
 number of document types are 53(that is a huge number)
+
 Upon exploring the data it was observed that a lot of documents had a consistent format as they were supposed to be submitted in a specific format for which regular expression was used to capture the data (Machine Learning was not required in this step).
+
 Rest of the documents were not standard across the industry so had to use a ML based approach.
+
 Based upon the category predicted extract substance name , Manufacturer etc.
+
 Built Custom trained NER models to extract entities like Substance Name, Address etc from documents.
+
 Built a flask api to perform above mentioned things.
