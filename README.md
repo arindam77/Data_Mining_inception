@@ -21,4 +21,5 @@ number of document types are 53(that is a huge number)
 Upon exploring the data it was observed that a lot of documents had a consistent format as they were supposed to be submitted in a specific format which made me use regular expression to capture the data (Machine Learning was not required in this step)
 Rest of the documents were not standard across the industry so had to use a ML based approach
 Based upon the category predicted extract substance name , Manufacturer etc
+Built Custom trained NER models to extract entities like Substance Name, Address etc from documents
 Built a flask api to perform above mentioned things
