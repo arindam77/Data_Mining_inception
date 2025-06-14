@@ -1,7 +1,7 @@
 # Document_classifier
 
 
-Flask-api-Classification-and-NER
+Flask-api-Classification-and-NER-
 Proof of concept:
 
 Description: Before a drug is released Pharmaceutical companies have to go through a process of submitting various regulatory documents in order to release the drug. In the process of doing the same our company already has a product where in a user has to do the following things:-
