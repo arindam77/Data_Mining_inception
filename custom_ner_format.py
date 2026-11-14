@@ -19,6 +19,8 @@ def findindex(file,word,substance):
 DIR='D:\\DownloadFiles_\\'
 
 data=pd.read_excel(r'D:\FilesData.xlsx')
+data1=pd.read_excel(r'D:\FilesData1.xlsx')
+
 
 data.columns
 
