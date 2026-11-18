@@ -41,7 +41,7 @@ def dwac():
     result=[]
     d = defaultdict(list)
     for x in FileID:
-        #print(x)
+        ##print(x)
         block_blob_service.get_blob_to_path('documentcontainer',x,'D:\\azure api\\' +x+'.pdf')
         d['UserID'].append(UserID)
        
